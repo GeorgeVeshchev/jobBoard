@@ -1,0 +1,172 @@
+/* AdminDashboard.css */
+
+.admin-dashboard {
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: right;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  .dashboard-container {
+    display: flex;
+    margin: 20px;
+  }
+  
+  .sidebar {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .sidebar form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sidebar label {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar input, .sidebar textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+  }
+  
+  .sidebar button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .sidebar button:hover {
+    background-color: #218838;
+  }
+  
+  .main-content {
+    flex: 2;
+  }
+  
+  .jobs, .job-applicants {
+    margin-bottom: 20px;
+  }
+  
+  .job-card, .applicant-card {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .job-card h5 {
+    margin: 0;
+  }
+  
+  .job-card .card-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .apply-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .apply-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .resume-viewer {
+    margin-top: 20px;
+  }
+  
+  .resume-textarea {
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 8px;
+  }
+  
+  .job-applicants {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .applicant-card {
+    flex: 1 1 calc(33.333% - 20px); /* Three columns layout */
+    box-sizing: border-box;
+  }
+  
+  .applicant-card .details_ {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .applicant-card .description {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .applicant-card .description textarea {
+    resize: none;
+  }
+  
+  .applicant-card a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .applicant-card a:hover {
+    text-decoration: underline;
+  }
+  
+  .btn-success, .btn-danger {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+    color: white;
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+  }
+  
+  .btn-success:hover {
+    background-color: #218838;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c82333;
+  }
+  
+  .error-message {
+    color: red;
+    margin-bottom: 20px;
+  }
+  
